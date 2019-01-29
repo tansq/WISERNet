@@ -1,0 +1,22 @@
+
+net: "model/wisernet_model.prototxt"
+snapshot_prefix: "snapshot/wisernet_snapshot"
+
+test_iter: 2000
+test_interval: 2000
+
+base_lr: 0.001
+lr_policy: "inv"
+power: 0.75
+gamma: 0.0001
+display: 1000
+max_iter: 300000
+
+# snapshot intermediate results
+snapshot: 1000
+
+momentum: 0.9
+weight_decay: 0.0005
+solver_mode: GPU
+
+random_seed: 1490
