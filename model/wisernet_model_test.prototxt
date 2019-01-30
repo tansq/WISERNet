@@ -9,7 +9,7 @@ layer {
     phase: TEST
   }
   data_param {
-    source: "test_image/lmdb_ppg_lan2_hillcmdc_40_test_20samples"
+    source: "test_images/lmdb_ppg_lan2_hillcmdc_40_test_20samples"
     batch_size: 2
     backend: LMDB
   }
